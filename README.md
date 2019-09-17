@@ -73,6 +73,7 @@ Create an SSH key pair for grader using the ssh-keygen tool.
       ssh-keygen -t rsa
       
   To login
+  First change the permissioon the ssh submitted using `` sudo chmod 600 mygrader ``
       ssh -i .ssh/mygrader grader@18.185.240.45 -p 2200
 Prepare to deploy your project.
 
